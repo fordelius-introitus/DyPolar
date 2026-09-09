@@ -33,15 +33,14 @@ div.icons {
     display: flex;
     gap: 45px;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #logo {
     max-width: 250px;
     max-height: auto;
-
-    margin-bottom: 50px;
 }
+
 
 #google-icon, #apple-icon {
     padding: 10px 10px;
@@ -70,7 +69,7 @@ div.icons {
     max-width: 50%;
     max-height: 100%;
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
     border-left: 2px solid rgba(190, 190, 190, 0.87);
 
     display: flex;
@@ -80,13 +79,14 @@ div.icons {
 
 .login-form-container {
     width: 100%;
-    max-width: 450px;
+    max-width: 400px;
     display: flex;
     justify-content: center;
 
     padding: 5vw 15px;
     margin: 0 20px;
 
+    background-color: white;
     border: 1px solid rgba(190, 190, 190, 0.87);
     border-radius: 15px;
 
@@ -96,7 +96,7 @@ div.icons {
 .user,
 .password {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 input[type="text"],
@@ -166,6 +166,7 @@ button:hover {
         border-left: none;
 
         background-color: rgba(255, 255, 255, 0);
+        background-image: url('/img/background-1.png');
     }
 
     .login-form-container {
