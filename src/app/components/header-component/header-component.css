@@ -1,0 +1,83 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgb(183, 0, 255), rgb(16, 0, 235));
+}
+
+.shortcuts {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 25px;
+    width: 100%;
+
+    padding-left: 25px;
+    gap: 0;
+}
+
+.shortcut-button {
+    width: 150px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-self: center;
+    box-sizing: border-box;
+
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+
+    padding: 0 10px;
+}
+
+.shortcut-button:last-child {
+    border-right: none;
+}
+
+.shortcut-button:hover {
+    border-bottom: 3px solid rgb(243, 243, 243);
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+#user-icon {
+    align-self: center;
+
+    max-width: 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+.searchbar {
+    border-radius: 15px;
+    border: 0;
+
+    max-width: 300px;
+    width: 100%;
+
+    padding: 6px 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+input[type="text"] {
+    align-self: center;
+    height: fit-content;
+}
+
+#header-logo {
+    max-width: 100px;
+    width: 100%;
+    height: fit-content;
+
+    padding-right: 25px;
+    margin-left: 10px;
+}
